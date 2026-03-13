@@ -3,6 +3,16 @@
 	"EngineAssociation": "{E26FFD1C-432D-7DF3-5060-799FBA307896}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "TheGame",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
